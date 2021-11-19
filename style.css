@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Mumblers Demo";
+    background-color: orange;
+}
+
+.container{
+    border: 1px solid black;
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.foods{
+    width: 600px;
+    min-height: 100vh;
+    margin: auto;
+    background: white;
+    box-shadow: 10px 10px 24px o rgba(0, 0, 0, 0.5);
+}
+
+.foods h1{
+    font-size: 2.5rem;
+    margin-top: 1em;
+}
+
+
+.foods i{
+    font-size: 2rem;
+    color: orange;
+}
+
+.foods input{
+    font-family: inherit;
+    outline: 0;
+    border-bottom: 3px solid black;
+    width: 70%;
+    font-size: 1.5rem;
+    
+}
+
+#allItems h2{
+    margin-left: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+    font-size: 2rem;
+
+}
+@media(max-width:480px){
+    .foods h1{
+    font-size: 2rem;
+    .foods i{
+     font-size: 1.5rem;
+    .foods input{
+    font-size: 1rem;
+    #allItems h2{
+        margin-left: 25px;
+    font-size: 1.5rem;
+    }
+}
